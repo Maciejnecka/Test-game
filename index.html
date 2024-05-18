@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Stone Clicker Game</h1>
+      <p>Stones: <span id="stone-count">0</span></p>
+      <button id="click-button">Click the Stone</button>
+      <div id="upgrades">
+        <button id="upgrade1">Upgrade 1 (Cost: 10 Stones)</button>
+        <button id="auto-clicker">Auto-Clicker (Cost: 50 Stones)</button>
+        <button id="click-multiplier">
+          x2 Click Multiplier (Cost: 100 Stones)
+        </button>
+        <!-- Add more upgrade buttons as needed -->
+        <p>Click Value: <span id="click-value">1</span></p>
+        <p>Click Value: <span id="click-value">1</span></p>
+        <p>Stones Clicked: <span id="stones-clicked">0</span></p>
+        <div id="flying-numbers"></div>
+      </div>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
